@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Play with Sound</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+  </head>
+  <body>
+    <section class="introduction">
+        <h1>Welcome</h1>
+        <h2>
+There are combination of 9 sounds, which you can play over and over again.
+try and make your beat :)
+        </h2>
+        <h2>You can either click or use the numbers on your keyboard or numbpad</h2>
+    </section>
+    <section class="sounds">
+      <ol>
+        <li data-key="1" class="content">Boom</li>
+        <li data-key="2" class="content">Clap</li>
+        <li data-key="3" class="content">Hihat</li>
+        <li data-key="4" class="content">Kick</li>
+        <li data-key="5" class="content">Openhat</li>
+        <li data-key="6" class="content">Ride</li>
+        <li data-key="7" class="content">Snare</li>
+        <li data-key="8" class="content">Tink</li>
+        <li data-key="9" class="content">Tom</li>
+      </ol>
+    </section>
+    <span>
+      <audio data-key="1" src="./sounds/boom.wav"></audio>
+      <audio data-key="2" src="./sounds/clap.wav"></audio>
+      <audio data-key="3" src="./sounds/hihat.wav"></audio>
+      <audio data-key="4" src="./sounds/kick.wav"></audio>
+      <audio data-key="5" src="./sounds/openhat.wav"></audio>
+      <audio data-key="6" src="./sounds/ride.wav"></audio>
+      <audio data-key="7" src="./sounds/snare.wav"></audio>
+      <audio data-key="8" src="./sounds/tink.wav"></audio>
+      <audio data-key="9" src="./sounds/tom.wav"></audio>
+    </span>
+    <script src="./script.js"></script>
+  </body>
+</html>
